@@ -1,5 +1,3 @@
-/*	Question Set 1 - Easy */
-
 /* Q1: Who is the senior most employee based on job title? */
 
 SELECT title, last_name, first_name 
@@ -44,10 +42,8 @@ GROUP BY customer.customer_id
 ORDER BY total_spending DESC
 LIMIT 1;
 
+/*MEDUM LLEVEL QUESTIONS*/
 
-
-
-/* Question Set 2 - Moderate */
 
 /* Q1: Write query to return the email, first name, last name, & Genre of all Rock Music listeners. 
 Return your list ordered alphabetically by email starting with A. */
@@ -225,6 +221,4 @@ WHERE cc.total_spending = ms.max_spending
 ORDER BY 1;
 
 
-/* source: www.youtube.com/@RishabhMishraOfficial */
 
-/* Thank You :) */
